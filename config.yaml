@@ -1,0 +1,50 @@
+# Horse Yield AI Configuration
+
+# Working years thresholds
+working_years_thresholds:
+  peak_start: 3
+  peak_end: 10
+  medium_start: 10
+  medium_end: 15
+  decline_start: 15
+
+# Health score levels
+health_levels:
+  excellent: 9  # 9-10
+  good: 7       # 7-8
+  fair: 5       # 5-6
+  poor: 3       # 3-4
+  critical: 1   # 1-2
+
+# Risk weights (for risk assessment)
+risk_weights:
+  health_critical: 30
+  health_poor: 15
+  age_too_young: 25
+  age_too_old: 25
+  low_demand: 20
+  low_profit: 20
+
+# Usage types
+usage_types:
+  - wedding
+  - tourism
+  - racing
+  - breeding
+  - mixed
+
+# Cost categories
+cost_categories:
+  feed: "Monthly feed cost"
+  maintenance: "Maintenance (farrier, vet, etc.)"
+  transport: "Transport and logistics"
+  insurance: "Insurance (optional)"
+  training: "Training and coaching (optional)"
+
+# Default thresholds
+default_values:
+  minimum_age: 3
+  maximum_age: 25
+  minimum_health: 1
+  maximum_health: 10
+  minimum_events_per_month: 1
