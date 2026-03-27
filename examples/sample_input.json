@@ -1,0 +1,17 @@
+{
+  "name": "Thunder",
+  "age": 5,
+  "breed": "Thoroughbred",
+  "weight": 480,
+  "health_score": 9,
+  "training_level": "Advanced",
+  "usage_type": "Wedding",
+  "events_per_month": 10,
+  "price_per_event": 8000,
+  "feed_cost": 10000,
+  "maintenance_cost": 15000,
+  "transport_cost": 5000,
+  "demand_per_month": 12,
+  "total_investment": 500000,
+  "notes": "Example horse from Horse Yield AI concept document"
+}
